@@ -1,0 +1,79 @@
+/// Body
+
+$contentBackgroundColor: #fff;
+$headerBackground: '../img/m-h-day.jpg';
+$containerSize: 1200px;
+
+/// Logo
+
+$logoPadding: 10px;
+$logoTextColour: #2c2f3c;
+$logoTextSize: 18px;
+$logoTextSpanSize: 8px;
+$logoFooterTextColour: #c0c3b4;
+
+/// Fonts
+$font: (
+        family: ('Source Sans Pro', sans-serif),
+        familyHeader: ('Source Sans Pro', sans-serif),
+        familyHeading: ('Source Sans Pro', sans-serif),
+        familyLogo: ('Source Sans Pro', sans-serif),
+        familySectionText: ('Source Sans Pro', sans-serif),
+        familySectionLink: ('Source Sans Pro', sans-serif),
+        familyBannerHeading: ('Source Sans Pro', sans-serif),
+        familyBannerTextFontFamily: ('Source Sans Pro', sans-serif),
+        familyFooter: ('Source Sans Pro', sans-serif)
+);
+
+$background: (
+        Day: linear-gradient(90deg, rgba(99,147,21,1) 35%, rgba(49,95,202,1) 100%),
+        Night: linear-gradient(90deg, rgba(219,159,8,1) 35%, rgba(147,45,81,1) 100%)
+);
+
+$backGroundBannerGradient: map-get($background, Day);
+
+$fontFamilyHeader: map-get($font, family);
+$fontFamilyHeading: map-get($font, familyHeading);
+
+$fontSizeHeading: 48px;
+$headerTextFontSize: 12px;
+
+$headerTextColour: #2c2f3c;
+
+$headingTextColour: #2c323f;
+
+/// Header Colors
+
+$buttonColour: #699900;
+$buttonColourHover:#69a505;
+
+$headerSelectionBackground: #14a0c7;
+
+/// Section Colours
+
+$sectionTextColour: #000;
+$sectionFontFamily: map-get($font, familySectionText);
+$sectionFontFamilyLink: map-get($font, familySectionLink);
+$sectionSelectionColour: #14a0c7;
+
+/// Cards Styles
+
+$sectionCardBackground: #21232e;
+$sectionCardHeadingColour: #fff;
+$sectionCardDescriptionColour: #c0c3af;
+
+/// Section Banner
+$sectionBannerHeadingFontFamily: map-get($font, familyBannerHeading);
+$sectionBannerHeadingColour: #2c323f;
+
+$sectionBannerTextFontFamily: map-get($font, familyBannerTextFontFamily);
+$sectionBannerTextColor: #b7c3b9;
+
+$footerSelectionBackground: #14a0c7;
+
+/// Footer
+$footerBackgroundColour: #21232e;
+$footerTextColour: #c0c3b4;
+$footerFontSize: 14px;
+
+$footerFontFamily: map-get($font, familyFooter);
