@@ -280,4 +280,10 @@ footer {
       }
     }
   }
+
+  footer {
+    .footer-wrap {
+      flex-direction: column;
+    }
+  }
 }
