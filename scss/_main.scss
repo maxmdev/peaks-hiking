@@ -271,3 +271,13 @@ footer {
     }
   }
 }
+
+@media (max-width: 600px) {
+  main {
+    .section_card_wrap {
+      .section_card {
+        flex-direction: column;
+      }
+    }
+  }
+}

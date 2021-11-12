@@ -185,3 +185,7 @@ footer {
       color: #d1d1d1; }
       footer .footer-wrap .footer_logo p span {
         font-size: 8px; }
+
+@media (max-width: 600px) {
+  main .section_card_wrap .section_card {
+    flex-direction: column; } }
